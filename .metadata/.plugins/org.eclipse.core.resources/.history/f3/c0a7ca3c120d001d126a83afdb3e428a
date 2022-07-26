@@ -1,0 +1,20 @@
+package gamemania;
+
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Testelogingamemania {
+	private WebDriver driver;
+	@Before 
+	public void abrirNavegador() {
+		System.setProperty("webdriver.chrome.driver", "/Users/danielmonteiro/Chromedriver/chromedriver");
+		driver = new ChromeDriver();
+	}
+	
+	@Test
+	public void testeNavegador() {
+		driver.get("");
+	}
+}

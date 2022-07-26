@@ -1,0 +1,7 @@
+package gamemania;
+
+import org.openqa.selenium.WebDriver;
+
+public class Testelogingamemania {
+	private WebDriver driver;
+}
